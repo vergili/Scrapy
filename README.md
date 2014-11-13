@@ -36,9 +36,8 @@ http://stackoverflow.com/questions/22467111/scrapy-couchebase-middleware-or-pipl
 http://stackoverflow.com/questions/12553117/how-to-filter-duplicate-requests-based-on-url-in-scrapy
 
 ##### Scrapyd   setting 
-"""
-$ curl http://localhost:6800/schedule.json -d project=myproject -d spider=somespider -d setting=DOWNLOAD_DELAY=2 -d arg1=val1
-"""
+    $ curl http://localhost:6800/schedule.json -d project=myproject -d spider=somespider -d setting=DOWNLOAD_DELAY=2 -d arg1=val1
+
 
 
 
